@@ -83,3 +83,6 @@ Right before your interview or demo:
 - `live_orders_seed.csv` — ~13,000 rows of realistic order data (last 90 days) to seed your Google Sheet
 - `live_order_generator.gs` — the Apps Script code that auto-generates new orders every few minutes
 
+
+## 🔗 Live Dashboard
+[View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/pashupati.nath.vidyarthi/viz/E-CommerceLiveSalesDashboard/Dashboard1?publish=yes)
