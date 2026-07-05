@@ -9,7 +9,6 @@ Tableau Public **cannot** auto-refresh a published web dashboard on its own — 
 - A Tableau Public dashboard connected to that sheet.
 - A `Data > Refresh` step you do manually before republishing — this pulls the newest rows into your dashboard.
 
-**In your interview**, the correct thing to say is: *"I simulated live data using an auto-updating Google Sheet, and built the dashboard against it. In production, this same dashboard would sit on Tableau Server/Cloud with a scheduled extract refresh, or connect live to the warehouse directly — Tableau Public doesn't support that, so I approximated it."* That's an accurate, technically credible answer.
 
 ---
 
@@ -84,8 +83,3 @@ Right before your interview or demo:
 - `live_orders_seed.csv` — ~13,000 rows of realistic order data (last 90 days) to seed your Google Sheet
 - `live_order_generator.gs` — the Apps Script code that auto-generates new orders every few minutes
 
-## Interview talking points
-
-- "I built this against a live-updating data source rather than a static file, to practice the kind of refresh workflow you'd use in production BI tooling."
-- "I'm aware Tableau Public doesn't support scheduled server-side refresh — that's a Tableau Server/Cloud feature — so I simulated the live-data experience with an auto-updating Google Sheet and manual refresh, which is the closest legitimate approximation on the free tier."
-- "The dashboard design follows a standard layout: KPI summary at the top, trend below, and categorical breakdowns at the bottom — so a viewer's eye naturally moves from 'what happened' to 'why'."
